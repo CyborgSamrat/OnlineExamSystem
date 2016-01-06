@@ -1,0 +1,87 @@
+﻿@model IEnumerable<OnlineExamService.Models.McqQuestion>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.QuestionText)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OptionA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OptionB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OptionC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OptionD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CorrectAnswer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SubjectCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DifficultyLevel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Class)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuestionText)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OptionA)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OptionB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OptionC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OptionD)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CorrectAnswer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SubjectCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DifficultyLevel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Class)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.McqQuestionId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.McqQuestionId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.McqQuestionId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,98 @@
+﻿@model OnlineExamService.Models.McqQuestion
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>McqQuestion</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.QuestionText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.QuestionText)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OptionA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OptionA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OptionB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OptionB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OptionC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OptionC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OptionD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OptionD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CorrectAnswer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CorrectAnswer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SubjectCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubjectCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DifficultyLevel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DifficultyLevel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Class)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Class)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.McqQuestionId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

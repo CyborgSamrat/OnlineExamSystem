@@ -1,0 +1,93 @@
+[
+  {
+    "McqQuestionId": "d427a29a-ceb8-466f-8805-19be8477f1b9",
+    "QuestionText": "Where are you from?",
+    "OptionA": "Lalmonirhat ",
+    "OptionB": "Rangpur",
+    "OptionC": "Bangladesh",
+    "OptionD": "Bangladesh, Rangpur, Lalmonirhat",
+    "Answer": "D",
+    "SubjectCode": "GK101",
+    "DifficultyLevel": "Easy",
+    "Class": "Standard One",
+    "Type": "MCQ"
+  },
+  {
+    "McqQuestionId": "95acc8f4-2966-4201-8063-48b466e52a1b",
+    "QuestionText": "When did Bangladesh aquire her independence?",
+    "OptionA": "1971",
+    "OptionB": "1952",
+    "OptionC": "2009",
+    "OptionD": "1947",
+    "Answer": "A",
+    "SubjectCode": "GK101",
+    "DifficultyLevel": "Easy",
+    "Class": "Standard One",
+    "Type": "MCQ"
+  },
+  {
+    "McqQuestionId": "e6f7ff46-171f-460a-8e8e-5c1d38b8e929",
+    "QuestionText": "How are you?",
+    "OptionA": "Good",
+    "OptionB": "Beautiful",
+    "OptionC": "Well",
+    "OptionD": "Nice",
+    "Answer": "C",
+    "SubjectCode": "GK101",
+    "DifficultyLevel": "Easy",
+    "Class": "Standard One",
+    "Type": "MCQ"
+  },
+  {
+    "McqQuestionId": "b3bb22fc-fb25-4062-b8bc-6f370a7176a5",
+    "QuestionText": "Who are you?",
+    "OptionA": "Samrat ",
+    "OptionB": "Shamim",
+    "OptionC": "Somu",
+    "OptionD": "All",
+    "Answer": "D",
+    "SubjectCode": "GK101",
+    "DifficultyLevel": "Easy",
+    "Class": "Standard One",
+    "Type": "MCQ"
+  },
+  {
+    "McqQuestionId": "9722ccd7-0203-48ad-bec2-7ffa100c45cf",
+    "QuestionText": "What is the capital of Bangladesh?",
+    "OptionA": "Dhaka",
+    "OptionB": "Rajshahi",
+    "OptionC": "Rangpur",
+    "OptionD": "Commilla",
+    "Answer": "A",
+    "SubjectCode": "GK101",
+    "DifficultyLevel": "Easy",
+    "Class": "Standard One",
+    "Type": "MCQ"
+  },
+  {
+    "McqQuestionId": "fc926d1b-8afb-4c31-ab73-bc6f9aaf5f47",
+    "QuestionText": "Which one of the folloing is correct?",
+    "OptionA": "Lal monirhat ",
+    "OptionB": "Lalmonir hat",
+    "OptionC": "Lalmonirhat",
+    "OptionD": "Lal monir hat",
+    "Answer": "C",
+    "SubjectCode": "GK101",
+    "DifficultyLevel": "Easy",
+    "Class": "Standard One",
+    "Type": "MCQ"
+  },
+  {
+    "McqQuestionId": "084b744d-ecbd-48b9-8498-cdd5ce9a1383",
+    "QuestionText": "5*5+6 equals?",
+    "OptionA": "30",
+    "OptionB": "31",
+    "OptionC": "35",
+    "OptionD": "55",
+    "Answer": "B",
+    "SubjectCode": "GK101",
+    "DifficultyLevel": "Easy",
+    "Class": "Standard One",
+    "Type": "MCQ"
+  }
+]
