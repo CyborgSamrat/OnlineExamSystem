@@ -1,0 +1,97 @@
+﻿<div ng-controller="QuestionController" ng-init="counter">
+
+    <div ng-show="divQuestionList">
+        <table class="table">
+            <thead>MCQ Questions</thead>
+            <tr ng-repeat="question in mcqQuestions">
+                <td>{{$index + 1}} {{question.QuestionText}}</td>
+            </tr>
+        </table>
+    </div>
+
+    <span ng-click="CreateQuestionDiv()" class="btn btn-default">
+        Create Question
+    </span>
+
+    <div ng-show="divCreateQuestion" >
+        <table class="table">
+            <tr>
+                <td>Subject Code</td>
+                <td>
+                    <input type="text" ng-model="subjectCode"/>
+                </td>
+                <td>Difficulty Level</td>
+                <td>
+                    <select ng-model="difficultyLevel">
+                        <option value="Easy">Easy</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Hard">Hard</option>
+                    </select>
+                </td>
+                <td>Class</td>
+                <td>
+                    <select ng-model="class">
+                        <option value="StandardOne">Standard One</option>
+                        <option value="StandardTwo">Standard Two</option>
+                        <option value="StandardThree">Standard Three</option>
+                        <option value="StandardFour">Standard Four</option>
+                        <option value="StandardFive">Standard Five</option>
+                        <option value="StandardSix">Standard Six</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Question:</td>
+                <td colspan="2">
+                    <textarea ng-model="questionText" rows="4" cols="50"></textarea>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Option A:</td>
+                <td>
+                    <input type="text" ng-model="optionA"/>
+                </td>
+                <td>
+                    <input type="checkbox" ng-click="setAnswer(0)" ng-model="correctAnswer[0]" />
+                </td>
+            </tr>
+            <tr>
+                <td>Option B:</td>
+                <td>
+                    <input type="text" ng-model="optionB" />
+                </td>
+                <td>
+                    <input type="checkbox" ng-click="setAnswer(1)" ng-model=" correctAnswer[1]" />
+                </td>
+            </tr>
+            <tr>
+                <td>Option C:</td>
+                <td>
+                    <input type="text" ng-model="optionC" />
+                </td>
+                <td>
+                    <input type="checkbox" ng-click="setAnswer(2)" ng-model="correctAnswer[2]" />
+                </td>
+            </tr>
+            <tr>
+                <td>Option D:</td>
+                <td>
+                    <input type="text" ng-model="optionD" />
+                </td>
+                <td>
+                    <input type="checkbox" ng-click="setAnswer(3)" ng-model=" correctAnswer[3]" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="button" class="btn btn-default" value="save" ng-click="AddQuestion()"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+</div>

@@ -38,3 +38,6 @@ C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\On
 C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\obj\Debug\OnlineExamService.csproj.GenerateResource.Cache
 C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\obj\Debug\OnlineExamService.Migrations.dbcontextupdated.resources
 C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\obj\Debug\OnlineExamService.Migrations.AnswerAsString.resources
+C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\bin\System.Web.Cors.dll
+C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\bin\System.Web.Http.Cors.dll
+C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\bin\System.Web.Http.Cors.xml
