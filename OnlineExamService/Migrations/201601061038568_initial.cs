@@ -33,7 +33,7 @@ namespace OnlineExamService.Migrations
                         OptionB = c.String(),
                         OptionC = c.String(),
                         OptionD = c.String(),
-                        Answer = c.String(),
+                        CorrectAnswer = c.String(),
                         SubjectCode = c.String(),
                         DifficultyLevel = c.String(),
                         Class = c.String(),

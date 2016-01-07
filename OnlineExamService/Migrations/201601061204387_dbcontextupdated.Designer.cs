@@ -7,13 +7,13 @@ namespace OnlineExamService.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.1-30610")]
-    public sealed partial class virtualDiscardedFromString : IMigrationMetadata
+    public sealed partial class dbcontextupdated : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(virtualDiscardedFromString));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(dbcontextupdated));
         
         string IMigrationMetadata.Id
         {
-            get { return "201601061018515_virtualDiscardedFromString"; }
+            get { return "201601061204387_dbcontextupdated"; }
         }
         
         string IMigrationMetadata.Source

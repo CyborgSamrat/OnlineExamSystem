@@ -36,5 +36,5 @@ c:\users\shamim.ahmed\documents\visual studio 2013\Projects\OnlineExamService\On
 c:\users\shamim.ahmed\documents\visual studio 2013\Projects\OnlineExamService\OnlineExamService\bin\EntityFramework.SqlServer.xml
 C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\obj\Debug\OnlineExamService.Migrations.initial.resources
 C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\obj\Debug\OnlineExamService.csproj.GenerateResource.Cache
-C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\obj\Debug\OnlineExamService.Migrations.AnswerAndResultAdded.resources
-C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\obj\Debug\OnlineExamService.Migrations.virtualDiscardedFromString.resources
+C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\obj\Debug\OnlineExamService.Migrations.dbcontextupdated.resources
+C:\Users\shamim.ahmed\Documents\Visual Studio 2013\Projects\OnlineExamService\OnlineExamService\obj\Debug\OnlineExamService.Migrations.AnswerAsString.resources

@@ -23,5 +23,10 @@ namespace OnlineExamService.DbContexts
 
         public System.Data.Entity.DbSet<OnlineExamService.Models.McqExam> McqExams { get; set; }
 
+        public System.Data.Entity.DbSet<OnlineExamService.Models.McqAnswer> McqAnswers { get; set; }
+
+        public System.Data.Entity.DbSet<OnlineExamService.Models.Result> Results { get; set; }
+
+
     }
 }

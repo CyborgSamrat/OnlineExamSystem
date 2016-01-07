@@ -10,8 +10,6 @@ namespace OnlineExamService.Models
         public Guid McqExamId { get; set; }
         public int NumberOfMcqQuestion { get; set; }
         public virtual List<McqQuestion> McqQuestions { get; set; }
-        public  List<string> McqAnswers { get; set; }
-
         public McqExam()
         {
             this.McqExamId = Guid.NewGuid();

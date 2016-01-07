@@ -1,0 +1,26 @@
+﻿@model OnlineExamService.Models.McqAnswer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>McqAnswer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.McqAnswers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.McqAnswers)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.McqAnswerId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

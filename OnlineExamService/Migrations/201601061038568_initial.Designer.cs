@@ -7,13 +7,13 @@ namespace OnlineExamService.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.1-30610")]
-    public sealed partial class AnswerAndResultAdded : IMigrationMetadata
+    public sealed partial class initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AnswerAndResultAdded));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201601060944402_AnswerAndResultAdded"; }
+            get { return "201601061038568_initial"; }
         }
         
         string IMigrationMetadata.Source
