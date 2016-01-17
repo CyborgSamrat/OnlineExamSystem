@@ -11,9 +11,11 @@ using System.Web.Http;
 using System.Web.Http.Description;
 using OnlineExamService.DbContexts;
 using OnlineExamService.Models;
+using System.Web.Http.Cors;
 
 namespace OnlineExamService.Controllers
 {
+     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class McqExamsController : ApiController
     {
         private ExamDbContext db = new ExamDbContext();

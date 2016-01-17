@@ -12,5 +12,10 @@ namespace OnlineExamWebsite.Controllers
         {
             return View();
         }
+
+        public ActionResult CreateQuestion()
+        {
+            return View("CreateQuestion.html");
+        }
     }
 }

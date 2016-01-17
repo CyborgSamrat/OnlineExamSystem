@@ -12,7 +12,8 @@ namespace OnlineExamWebsite
         {
             bundles.Add(new ScriptBundle("~/bundles/angularJS").Include(
                     "~/Scripts/angular.js"));
-
+            bundles.Add(new ScriptBundle("~/bundles/angularUIRouter").Include(
+                    "~/Scripts/angular-ui-router.js"));
             bundles.Add(new ScriptBundle("~/bundles/OEAngularScripts").Include(
                     "~/Scripts/OnlineExamScripts/OnlineExam.js",
                     "~/Scripts/OnlineExamScripts/Services/QuestionService.js",

@@ -11,9 +11,11 @@ using System.Web.Http;
 using System.Web.Http.Description;
 using OnlineExamService.DbContexts;
 using OnlineExamService.Models;
+using System.Web.Http.Cors;
 
 namespace OnlineExamService.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class McqAnswersController : ApiController
     {
         private ExamDbContext db = new ExamDbContext();
@@ -76,6 +78,7 @@ namespace OnlineExamService.Controllers
         [ResponseType(typeof(McqAnswer))]
         public async Task<IHttpActionResult> PostMcqAnswer(McqAnswer mcqAnswer)
         {
+            mcqAnswer.McqAnswerId = Guid.NewGuid();
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);

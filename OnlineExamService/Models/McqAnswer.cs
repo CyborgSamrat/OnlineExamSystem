@@ -10,5 +10,10 @@ namespace OnlineExamService.Models
         public Guid McqAnswerId { get; set; }
         public virtual McqExam Exam { get; set; }
         public string McqAnswers { get; set; }
+        public McqAnswer()
+        {
+            this.McqAnswerId = Guid.NewGuid();
+        }
     }
+    
 }
